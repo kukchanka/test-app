@@ -1,0 +1,35 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.card {
+    padding: 2em;
+}
+
+.read-the-docs {
+    color: #888;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    background-color: white;
+}
+
+.play-button {
+    color: black;
+}
+
+.pause-button {
+    color: black;
+}
+
+.stop-button {
+    color: black;
+}
