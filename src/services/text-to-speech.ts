@@ -8,7 +8,7 @@ interface Engine {
   stop(): void;
 }
 
-export class TextToSpeech implements Engine {
+export class TextToSpeechEngine implements Engine {
   private readonly engine: SpeechSynthesisUtterance;
 
   constructor(text: string, onEnd?: () => void, onChunkEnd?: (ev: SpeechSynthesisEvent) => void, lang = 'ru-RU') {

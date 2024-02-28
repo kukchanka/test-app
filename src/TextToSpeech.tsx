@@ -1,7 +1,8 @@
 import { Controls } from './Controls';
 import { DocumentView } from './DocumentView';
+// import { TextToSpeechEngine } from './services/text-to-speech';
 
-export const TextToSpeech = () => {
+export const TextToSpeechView = () => {
   return (
     <div className="card">
       <Controls />
